@@ -133,6 +133,12 @@ function ticked() {
                     $('.game').hide();
                     score = 0;
                     end = undefined;
+                } else {
+                    alert('Your final score is: ' + previousScore);
+                    $('.container').show();
+                    $('.game').hide();
+                    score = 0;
+                    end = undefined;
                 }
 
             }
